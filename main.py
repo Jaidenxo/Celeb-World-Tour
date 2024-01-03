@@ -10,7 +10,7 @@ status = "idle" #online/dnd/idle
 
 custom_status = "discord.gg/cwt" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
 
-usertoken = os.getenv("OTMzMTM4OTYzMDA1MzA4OTc4.G6jDxX._ll3D5noRoYK0NX9misWoZHzMxivksV4lD7Js8")
+usertoken = os.getenv("OTMzMTM4OTYzMDA1MzA4OTc4.Gvc_EW.w2KencLgVM74zm5eYuX8K8XQV_XtJDO4QUkvqc")
 if not usertoken:
     print("[ERROR] Please add a token inside Secrets.")
     sys.exit()
