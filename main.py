@@ -37,11 +37,11 @@ def onliner(token, status):
         "d": {
             "token": token,
             "properties": {
-                "$os": "Windows 10",
+                "$os": "macOS",
                 "$browser": "Google Chrome",
-                "$device": "Windows",
+                "$device": "macOS",
             },
-            "presence": {"status": status, "afk": False},
+            "presence": {"status": status, "afk": True},
         },
         "s": None,
         "t": None,
@@ -66,7 +66,7 @@ def onliner(token, status):
                 }
             ],
             "status": status,
-            "afk": False,
+            "afk": True,
         },
     }
     ws.send(json.dumps(cstatus))
